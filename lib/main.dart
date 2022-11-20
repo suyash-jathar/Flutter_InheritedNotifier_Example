@@ -71,7 +71,8 @@ class _HomePageState extends State<HomePage> {
       ),
       body: SliderInheritedNotifier(
         sliderData: sliderdata,
-        // Builder is used to allow the fresh part of context 
+        // Builder -> It is used to allow the fresh part of context - 
+        //            It consist of all Build-context present in main.dart  
         child: Builder(
           builder: (context) {
             return Column(
